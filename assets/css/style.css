@@ -397,6 +397,19 @@ h1,h2,h3,h4,h5,h6 {
 }
 .section__images_item {
     background:#fbfaf8;
+    transition: background 0.2s linear;
+}
+
+.section__images_item:hover {
+    background: #362f2d;
+}
+
+.section__images_item:hover .section__images__item__text_title {
+    color: #fff;
+}
+
+.section__images_item:hover .section__images__item__text_subtitle {
+    color: #c7b299;
 }
 
 .section__images__items {
@@ -414,6 +427,7 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 20px;
     font-weight: 500;
     color: #c7b299;
+    transition: color 0.2s linear;
 }
 
 .section__images__item__text_subtitle {
@@ -421,6 +435,7 @@ h1,h2,h3,h4,h5,h6 {
     font-size:14px;
     font-weight: 300;
     color:#d1d1d1;
+    transition: color 0.2s linear;
 }
 
 .section__buttons__bottom {
